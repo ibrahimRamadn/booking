@@ -24,6 +24,6 @@ app.get('/' , (req , res) => {
  })
 });
 
-app.listen(port ,'localhost', () => {
+app.listen(port , () => {
     console.log(`sever up on port ${port}`);
 });
